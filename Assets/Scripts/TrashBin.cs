@@ -8,7 +8,10 @@ public class TrashBin : MonoBehaviour
 
     public void SelectBin()
     {
-        Debug.Log(Category);
-        //Check
+        if (GameManager.Instance.GetCurrentTrashCategory() == Category)
+        {
+            ScoreManager.Instance.AddScore();
+        }
+        GameManager.Instance.NextTrash();
     }
 }
