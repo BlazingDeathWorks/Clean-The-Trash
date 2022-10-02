@@ -6,9 +6,9 @@ using TMPro;
 public class ScoreManager : MonoBehaviour
 {
     public static ScoreManager Instance = null;
+    public int Score { get; private set; }
     [SerializeField] private TMP_Text _scoreText;
     [SerializeField] private int _scoreMultiplier = 10;
-    private int _score;
 
     private void Awake()
     {
@@ -20,18 +20,18 @@ public class ScoreManager : MonoBehaviour
         }
         Instance = this;
 
-        _score = 0;
+        Score = 0;
         UpdateScore();
     }
 
     private void UpdateScore()
     {
-        _scoreText.text = "Points: " + _score;
+        _scoreText.text = "Points: " + Score;
     }
 
     public void AddScore()
     {
-        _score += _scoreMultiplier;
+        Score += _scoreMultiplier;
         UpdateScore();
     }
 }

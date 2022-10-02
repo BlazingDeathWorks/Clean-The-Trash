@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Instance = null;
+    public bool IsAlive = true;
     [SerializeField] private Image _trashImage;
     [SerializeField] private Text _trashText;
     [SerializeField] private TrashObject[] _trashObjects;
