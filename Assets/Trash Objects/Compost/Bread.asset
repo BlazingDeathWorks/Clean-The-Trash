@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb7ba88d5e49749479df41a0ae0525a9, type: 3}
   m_Name: Bread
   m_EditorClassIdentifier: 
-  Label: 
-  Image: {fileID: 0}
-  Category: 0
+  Label: Bread
+  Image: {fileID: 21300000, guid: f8f8738c9c17f534fa57d5b12a1b08f3, type: 3}
+  Category: 2

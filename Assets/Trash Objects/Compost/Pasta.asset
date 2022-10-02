@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb7ba88d5e49749479df41a0ae0525a9, type: 3}
   m_Name: Pasta
   m_EditorClassIdentifier: 
-  Label: 
-  Image: {fileID: 0}
-  Category: 0
+  Label: Pasta
+  Image: {fileID: 21300000, guid: e110df47a19f88443ad47d23298d6afa, type: 3}
+  Category: 2

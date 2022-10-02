@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb7ba88d5e49749479df41a0ae0525a9, type: 3}
   m_Name: French Fries
   m_EditorClassIdentifier: 
-  Label: 
-  Image: {fileID: 0}
-  Category: 0
+  Label: French Fries
+  Image: {fileID: 21300000, guid: 07f50fbb613650440bc132f1be4bedb1, type: 3}
+  Category: 2

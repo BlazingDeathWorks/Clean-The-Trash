@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb7ba88d5e49749479df41a0ae0525a9, type: 3}
   m_Name: Rubber Bands
   m_EditorClassIdentifier: 
-  Label: 
-  Image: {fileID: 0}
+  Label: Rubber Bands
+  Image: {fileID: 21300000, guid: d433767a2666cb5488b032e7c88bafdc, type: 3}
   Category: 0

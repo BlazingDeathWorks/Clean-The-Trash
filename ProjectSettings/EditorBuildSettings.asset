@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Main Scene.unity
     guid: 8929a041127c8054188356d4c330d42b
+  - enabled: 1
+    path: Assets/Scenes/Flaticon Credits.unity
+    guid: 3bdffb6304d6e7e4bbc1e498215e7ed7
   m_configObjects: {}
