@@ -2266,6 +2266,8 @@ MonoBehaviour:
   _trashText: {fileID: 631945669}
   _trashObjects:
   - {fileID: 11400000, guid: 25a9e1f486f6e2c439634a44982a3813, type: 2}
+  - {fileID: 11400000, guid: f1140d7cb01532842bffa099e7deb3e0, type: 2}
+  - {fileID: 11400000, guid: 2c26155c46b513f4287cb7614d9170a4, type: 2}
 --- !u!1 &1891504488
 GameObject:
   m_ObjectHideFlags: 0
